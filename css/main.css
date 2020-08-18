@@ -1,0 +1,195 @@
+html,
+body {
+  background: white;
+}
+
+.content-em {
+  padding-left: 7em;
+  padding-right: 7em;
+}
+
+.col-md-1,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-md-10,
+.col-md-11,
+.col-md-12 {
+  padding: 1px !important;
+}
+
+.section1 {
+  background: #ffffff;
+  display: block;
+  padding-top: 5.5em;
+  color: #000000;
+  padding-bottom: 100px;
+}
+
+.section2 {
+  background: green;
+  height: 2000px;
+}
+
+.heading-text {
+  font-weight: 800;
+  font-size: 32pt;
+  padding-top: 20px;
+}
+
+.subheading-text {
+  font-size: 22pt;
+  padding-top: 5px;
+  background: linear-gradient(to right, #ffd392 0%, #ff3898 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.check-out-text {
+  font-size: 22pt;
+  padding-top: 5px;
+  background: linear-gradient(to right, #00c99b 0%, #ff0ea1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 45px;
+}
+
+.img-logo {
+  display: block;
+  position: fixed !important;
+  cursor: pointer;
+  top: 3em;
+  z-index: 110;
+  background-color: transparent;
+  pointer-events: auto;
+  /*  background: rgba(255, 255, 255, 0.86);*/
+  padding-top: 7px;
+  padding-bottom: 1px;
+}
+
+.right-content {
+  position: relative;
+  align-content: flex-end !important;
+  right: -3em;
+}
+
+.tile-text {
+  font-size: 20pt;
+  width: 90%;
+  font-weight: bold;
+  margin-left: 3px;
+}
+
+.txt-right {
+  opacity: 0.3 !important;
+  font-size: 14pt;
+  right: 0px;
+  position: relative !important;
+  float: right;
+  margin-top: 5px;
+  margin-right: 6px;
+  transition: all .3s ease;
+  /*
+
+*/
+}
+
+.content-tile,
+.content-tile img {
+  transition: all .3s ease;
+  padding-bottom: 10px;
+}
+
+.content-tile {}
+
+.content-tile img:hover {
+  color: #ff3898;
+  transition: all .3s ease;
+}
+
+.content-tile img:hover > .tile-text p {
+  color: red !important;
+}
+
+.content-tile img:hover {
+  opacity: 0.5;
+  transition: all .3s ease;
+}
+
+.customBackButton {
+  position: fixed;
+  z-index: 99;
+  bottom: 15px;
+  background: #ffffff;
+  padding: 10px 30px;
+  border-radius: 4px;
+  border: 2px solid black;
+  color: #000000 !important;
+  font-weight: bold;
+  cursor: pointer;
+  right: 3em;
+  margin-right: 10px;
+  
+}
+
+.customBackButton:active {
+  position: fixed;
+  bottom: 8px;
+  padding-left: 13px;
+  right: 3em;
+  padding: 10px 30px;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-right: 0px;
+}
+
+.customBackButtonShadow {
+  background: linear-gradient(0.25turn, #00c99b, #ff0ea1, #ffd392);
+  position: fixed;
+  z-index: 90;
+  bottom: 8px;
+  margin-left: 3px;
+  right: 3em;
+   padding: 10px 30px;
+  border-radius: 4px;
+  color: transparent !important;
+  font-weight: bold;
+}
+
+.amii-grid-section {
+  background: url(/images/amii-grid-mobile.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 50em;
+  background-size: 100% 100%;
+}
+
+.i-am-centered { margin: auto; max-width: 300px;}
+
+.colorBall {
+  width:175px;
+  height: 125px;
+  border-radius: 5px;
+  background: #F55B9A;
+}
+
+.ball2{
+  background: #F9B16E;
+}
+
+.ball3 {
+  background: linear-gradient(to right, #F55B9A 0%, #F9B16E 100%);
+}
+
+.ball4 {
+  background: #222222;
+}
+
+.ball5 {
+  background: #EF3340;
+}
